@@ -20,7 +20,7 @@ if(empty($_POST['skills4'])) {
 	$_POST['skills4'] = "";
 }
 
-$ins_sql = "INSERT INTO php_course (name, email, subject, gender, skills1, skills2, skills3, skills4, country, comments) VALUES ('$name', '$email', '$subject', '$gender', '$_POST[skills1]', '$_POST[skills2]', '$_POST[skills3]','$_POST[skills4]', '$country', '$comments')";
+$ins_sql = "INSERT INTO comment (name, email, subject, gender, skill1, skill2, skill3, skill4, country, comments) VALUES ('$name', '$email', '$subject', '$gender', '$_POST[skills1]', '$_POST[skills2]', '$_POST[skills3]','$_POST[skills4]', '$country', '$comments')";
 $run_sql = mysqli_query($conn,$ins_sql);
 }
 

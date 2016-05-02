@@ -81,11 +81,14 @@ echo "<br><br>";
 //To sort arrays
 ksort($codename);
 foreach($codename as $key =>$code){
-	echo $key. ' - ' . $code. "<br><br>" ."<pre>";
+	echo $key. ' - ' . $code ."<pre>";
 }
 
 $skills = array_column($employee,'skills','name');
 	print_r($skills);
 	echo "</pre>";
+
+	echo $_GET['name']."<br>";
+	echo $_GET['age'];
 
 ?>

@@ -4,7 +4,7 @@
 		<title> Php form </title>
 	</head>
 	<body> 
-		<form action="index.php"> 
+		<form action="receive.php" method='post'> 
 			<table> 
 				<tr> 
 					<td>Username:</td>
@@ -15,7 +15,7 @@
 					<td><input type="password" name="password"></td>
 				</tr>
 				<tr> 
-					<td> </td>
+					<td><input type="hidden" value='yes' name='gamer'> </td>
 					<td><input type="submit" name="submit"></td>
 				</tr>
 			</table>
