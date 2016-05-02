@@ -1,8 +1,5 @@
 <?php include 'includes/db.php'; 
-if(isset($_GET['del_id'])) {
-		$del_sql= "DELETE FROM comment WHERE id='$_GET[del_id]'";
-		$run_sql = mysqli_query($conn,$del_sql);
-		}
+
 ?>
 
 <html> 

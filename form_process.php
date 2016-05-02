@@ -24,4 +24,4 @@ $ins_sql = "INSERT INTO comment (name, email, subject, gender, skill1, skill2, s
 $run_sql = mysqli_query($conn,$ins_sql);
 }
 
-?>
+?>	
